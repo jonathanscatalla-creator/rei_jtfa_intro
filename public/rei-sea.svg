@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 160" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Gradient for outer circle -->
+    <linearGradient id="circleGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D60A3" />
+      <stop offset="35%" stop-color="#4CA752" />
+      <stop offset="70%" stop-color="#8DC63F" />
+      <stop offset="100%" stop-color="#E5A812" />
+    </linearGradient>
+
+    <!-- Gradient for lightning & leaves -->
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8DC63F" />
+      <stop offset="100%" stop-color="#4CA752" />
+    </linearGradient>
+
+    <!-- Gradient for hand -->
+    <linearGradient id="handGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D60A3" />
+      <stop offset="50%" stop-color="#3B8E67" />
+      <stop offset="100%" stop-color="#55B348" />
+    </linearGradient>
+
+    <!-- Yellow arrow -->
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5A812" />
+      <stop offset="100%" stop-color="#DF9600" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Emblem Group -->
+  <g transform="translate(10, 8)">
+    <!-- Outer Arc Track & Arrow -->
+    <!-- Circular track starting from bottom left through top to right arrow -->
+    <path 
+      d="M 28 100 A 56 56 0 1 1 106 88" 
+      stroke="url(#circleGrad)" 
+      stroke-width="5" 
+      stroke-linecap="round" 
+      fill="none" 
+    />
+    
+    <!-- Arrow Head pointing down-left at the right side of the circle -->
+    <path 
+      d="M 97 75 L 106 91 L 119 82" 
+      stroke="#E5A812" 
+      stroke-width="4.5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      fill="none" 
+    />
+
+    <!-- Hand at bottom holding the energy bolt -->
+    <path 
+      d="M 22 108 C 26 98, 38 94, 46 95 C 56 96, 68 102, 78 104 C 85 105, 91 103, 95 99 C 93 108, 82 116, 69 116 C 53 116, 36 117, 22 108 Z" 
+      fill="url(#handGrad)" 
+    />
+    <path 
+      d="M 43 95 C 50 88, 59 86, 68 88 C 76 90, 84 94, 91 93 C 83 98, 72 98, 62 95 C 54 93, 47 93, 43 95 Z" 
+      fill="#4CA752" 
+      opacity="0.85" 
+    />
+
+    <!-- Lightning Bolt -->
+    <path 
+      d="M 75 14 L 38 68 L 73 68 L 52 104" 
+      stroke="url(#boltGrad)" 
+      stroke-width="6.5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      fill="none" 
+    />
+
+    <!-- Leaf 1 (Top) -->
+    <path 
+      d="M 52 48 C 50 38, 64 36, 68 45 C 67 53, 55 54, 52 48 Z" 
+      fill="#52B649" 
+    />
+    <path 
+      d="M 53 49 C 58 45, 64 43, 67 45" 
+      stroke="#FFFFFF" 
+      stroke-width="1.2" 
+      stroke-linecap="round" 
+      fill="none" 
+    />
+
+    <!-- Leaf 2 (Bottom) -->
+    <path 
+      d="M 50 67 C 48 57, 62 55, 66 64 C 65 72, 53 73, 50 67 Z" 
+      fill="#52B649" 
+    />
+    <path 
+      d="M 51 68 C 56 64, 62 62, 65 64" 
+      stroke="#FFFFFF" 
+      stroke-width="1.2" 
+      stroke-linecap="round" 
+      fill="none" 
+    />
+  </g>
+
+  <!-- Right Typography Group -->
+  <g transform="translate(142, 22)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Responsible -->
+    <text x="0" y="32" fill="#E5A812" font-size="34" font-weight="700" letter-spacing="-0.5">Responsible</text>
+    
+    <!-- Energy -->
+    <text x="0" y="68" fill="#E5A812" font-size="34" font-weight="700" letter-spacing="-0.5">Energy</text>
+    
+    <!-- Initiative -->
+    <text x="0" y="104" fill="#E5A812" font-size="34" font-weight="700" letter-spacing="-0.5">Initiative</text>
+    
+    <!-- Southeast Asia -->
+    <text x="0" y="132" fill="#2D58A7" font-size="24" font-weight="700" letter-spacing="0.2">Southeast Asia</text>
+  </g>
+</svg>

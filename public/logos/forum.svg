@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" fill="none">
+  <!-- Bright Blue Polygonal Trapezoid Background -->
+  <polygon points="68,64 204,96 256,194 104,258" fill="#0055FF" />
+  
+  <!-- Text: FORUM FOR THE FUTURE inside blue polygon -->
+  <g transform="translate(110, 144)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" fill="#FFFFFF">
+    <text x="0" y="0" font-size="20" letter-spacing="0.5">FORUM</text>
+    <text x="0" y="24" font-size="20" letter-spacing="0.5">FOR THE</text>
+    <text x="0" y="48" font-size="20" letter-spacing="0.5">FUTURE</text>
+  </g>
+</svg>

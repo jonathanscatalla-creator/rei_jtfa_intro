@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" width="100%" height="100%" fill="none">
+  <!-- Ocean Energy Pathway Serif Typography & Wave -->
+  <g transform="translate(10, 30)">
+    <!-- Ocean Energy -->
+    <text x="0" y="58" font-family="'Times New Roman', Georgia, serif" font-weight="900" font-size="64" fill="#000000" letter-spacing="-1">Ocean Energy</text>
+    
+    <!-- Wave Stroke under Ocean -->
+    <path d="M 0 115 C 20 115, 30 96, 55 96 C 80 96, 90 115, 115 115 C 140 115, 150 96, 175 96" stroke="#000000" stroke-width="16" stroke-linecap="round" fill="none" />
+    
+    <!-- Pathway -->
+    <text x="188" y="130" font-family="'Times New Roman', Georgia, serif" font-weight="900" font-size="64" fill="#000000" letter-spacing="-1">Pathway</text>
+  </g>
+</svg>

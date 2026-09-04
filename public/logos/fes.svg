@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="100%" height="100%" fill="none">
+  <!-- Solid Red Background Container -->
+  <rect width="320" height="220" fill="#E3000F" rx="3" />
+  
+  <!-- Text: Friedrich Ebert Stiftung -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" fill="#FFFFFF">
+    <text x="24" y="68" font-size="44" letter-spacing="-0.5">Friedrich</text>
+    <text x="24" y="118" font-size="44" letter-spacing="-0.5">Ebert</text>
+    <text x="24" y="174" font-size="44" letter-spacing="-0.5">Stiftung</text>
+  </g>
+
+  <!-- FES Circle Symbol on right -->
+  <g transform="translate(242, 118)">
+    <circle cx="0" cy="0" r="32" stroke="#FFFFFF" stroke-width="4.5" fill="none" />
+    <!-- Vertical center arrow stem -->
+    <line x1="0" y1="26" x2="0" y2="-22" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    <!-- Arrow Head roof -->
+    <path d="M -18 -6 L 0 -22 L 18 -6" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Horizontal bars -->
+    <line x1="-24" y1="8" x2="24" y2="8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <line x1="-20" y1="18" x2="20" y2="18" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

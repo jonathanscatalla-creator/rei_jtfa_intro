@@ -1,0 +1,8 @@
+{
+  "name": "Introducing REI Philippines",
+  "description": "Interactive presentation deck for the Philippine Lab at JTFA 2026: Shaping a Rapid, Just, and Resilient Energy Transition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

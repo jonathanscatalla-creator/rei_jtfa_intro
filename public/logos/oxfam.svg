@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="100%" height="100%" fill="none">
+  <g transform="translate(10, 15)">
+    <!-- Oxfam Green Person / Circle Emblem on Left -->
+    <g transform="translate(85, 85)">
+      <!-- Green Solid Circle -->
+      <circle cx="0" cy="0" r="75" fill="#3D7D1E" />
+      
+      <!-- White Cutout Person -->
+      <!-- Head Circle -->
+      <circle cx="0" cy="-25" r="28" fill="#FFFFFF" />
+      <circle cx="0" cy="-25" r="14" fill="#3D7D1E" />
+      
+      <!-- Body Loops -->
+      <path d="M -32 30 C -32 5, -12 2, 0 10 C 12 2, 32 5, 32 30 C 32 46, 18 52, 0 45 C -18 52, -32 46, -32 30 Z" fill="#FFFFFF" />
+      <circle cx="0" cy="24" r="10" fill="#3D7D1E" />
+    </g>
+
+    <!-- Typography Right -->
+    <g transform="translate(195, 30)">
+      <!-- OXFAM Bold -->
+      <text x="0" y="72" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="78" fill="#3D7D1E" letter-spacing="1">OXFAM</text>
+      <!-- Pilipinas -->
+      <text x="4" y="132" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="46" fill="#3D7D1E" letter-spacing="0.5">Pilipinas</text>
+    </g>
+  </g>
+</svg>

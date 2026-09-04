@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas: #FFFFFF;
+    --navy-primary: #1E2A38;
+    --gray-secondary: #555555;
+    --gray-muted: #666666;
+    --blue-accent: #0055FF;
+    --surface-subtle: #F8FAFC;
+    --surface-card: #FFFFFF;
+    --border-light: #E2E8F0;
+    --border-strong: #CBD5E1;
+    --font-heading: "Futura", "Montserrat", "Trebuchet MS", Arial, sans-serif;
+    --font-body: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "Space Mono", "JetBrains Mono", ui-monospace, monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #F1F5F9;
+    color: #1E2A38;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .futura, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .mono, .font-mono-code {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Light Theme Card & Container Classes */
+.glass-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 2px 10px rgba(30, 42, 56, 0.04);
+  border-radius: 4px;
+}
+
+.glass-card-hover {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 2px 10px rgba(30, 42, 56, 0.04);
+  border-radius: 4px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card-hover:hover {
+  border-color: #0055FF;
+  background: #F8FAFC;
+  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.08);
+}
+
+.kicker {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0055FF;
+  border-left: 2.5px solid #0055FF;
+  padding-left: 8px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+}
+
+.progress-bar {
+  height: 3px;
+  background: #E2E8F0;
+  width: 100%;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #0055FF;
+  box-shadow: 0 0 8px rgba(0, 85, 255, 0.35);
+  transition: width 0.35s ease-out;
+}
+
+.immersive-chip {
+  padding: 2px 8px;
+  border: 1px solid #E2E8F0;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background-color: #F8FAFC;
+  color: #555555;
+  font-family: var(--font-mono);
+  border-radius: 2px;
+}
+
+/* Responsive Slide Canvas Container Rules */
+.slide-canvas-container {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 20px 45px -15px rgba(30, 42, 56, 0.12);
+  transition: max-width 0.2s ease, max-height 0.2s ease;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Desktop widescreen: maintain clean 16:9 presentation proportions */
+@media (min-width: 1024px) and (min-aspect-ratio: 16/10) {
+  .slide-canvas-container {
+    aspect-ratio: 16 / 9;
+    max-height: calc(100dvh - 84px);
+    max-width: calc((100dvh - 84px) * 16 / 9);
+    height: auto;
+  }
+}
+
+/* Tablet landscape & medium aspect ratios (e.g. iPad 4:3, 16:10, short laptop screens) */
+@media (min-width: 768px) and (orientation: landscape) and (max-aspect-ratio: 16/10) {
+  .slide-canvas-container {
+    max-width: 1140px;
+    height: 100%;
+    max-height: calc(100dvh - 70px);
+    aspect-ratio: auto;
+  }
+}
+
+/* Mobile portrait & narrow screens */
+@media (max-width: 767px), (orientation: portrait) {
+  .slide-canvas-container {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    max-width: 100%;
+    aspect-ratio: auto;
+    border-radius: 6px;
+  }
+}
+
+/* Custom Scrollbar for compact sub-cards and scrollable slide bodies */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+
+
